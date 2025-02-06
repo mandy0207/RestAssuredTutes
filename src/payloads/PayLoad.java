@@ -10,4 +10,12 @@ public class PayLoad {
 	                "  \"author\": \"Sugesh & Vinod\"\n" +
 	                "}";
 	    }
+	  
+	  public static String getDeleteBookPayload(String ID) {
+		  return "\r\n"
+		  		+ " {\r\n"
+		  		+ "\"ID\": \""+ID+"\"\r\n"
+		  		+ "}";
+		  
+	  }
 }
