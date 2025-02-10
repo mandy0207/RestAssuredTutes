@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-06T21:48:02 IST" name="Default suite" finished-at="2025-02-06T21:48:24 IST" duration-ms="21509">
+  <suite started-at="2025-02-10T21:47:17 IST" name="Default suite" finished-at="2025-02-10T21:47:19 IST" duration-ms="1949">
     <groups>
     </groups>
-    <test started-at="2025-02-06T21:48:02 IST" name="Default test" finished-at="2025-02-06T21:48:24 IST" duration-ms="21509">
-      <class name="mylearning.LibraryAPI">
-        <test-method signature="verifyUserIsAbleToAddBooks()[pri:0, instance:mylearning.LibraryAPI@15ff3e9e]" started-at="2025-02-06T21:48:02 IST" name="verifyUserIsAbleToAddBooks" finished-at="2025-02-06T21:48:23 IST" duration-ms="21200" status="PASS">
+    <test started-at="2025-02-10T21:47:17 IST" name="Default test" finished-at="2025-02-10T21:47:19 IST" duration-ms="1949">
+      <class name="learnParsingJson.ParsingAnotherJson">
+        <test-method signature="parsingtest()[pri:0, instance:learnParsingJson.ParsingAnotherJson@15ff3e9e]" started-at="2025-02-10T21:47:17 IST" name="parsingtest" finished-at="2025-02-10T21:47:19 IST" duration-ms="1882" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserIsAbleToAddBooks -->
-      </class> <!-- mylearning.LibraryAPI -->
+        </test-method> <!-- parsingtest -->
+      </class> <!-- learnParsingJson.ParsingAnotherJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

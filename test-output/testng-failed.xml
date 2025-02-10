@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mylearning.LibraryAPI">
+      <class name="learnParsingJson.ParsingAnotherJson">
         <methods>
-          <include name="verifyUserIsAbleToAddBooks"/>
+          <include name="parsingtest"/>
         </methods>
-      </class> <!-- mylearning.LibraryAPI -->
+      </class> <!-- learnParsingJson.ParsingAnotherJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
