@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="learnParsingJson.ParsingAnotherJson">
+      <class name="mylearning.GithubOAuth2">
         <methods>
-          <include name="parsingtest"/>
+          <include name="learnOAuth"/>
+          <include name="grabCode"/>
         </methods>
-      </class> <!-- learnParsingJson.ParsingAnotherJson -->
+      </class> <!-- mylearning.GithubOAuth2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

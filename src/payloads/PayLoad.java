@@ -78,4 +78,19 @@ public class PayLoad {
 		  		+ "}}\r\n"
 		  		+ "";
 	  }
+	  
+	  public static String  getGitHubPayload(String clienID, String clientSecret, String code) {
+		  return "{\r\n"
+		  		+ "  \"client_id\": \""+clienID+"\",\r\n"
+		  		+ "  \"client_secret\": \""+clientSecret+"\",\r\n"
+		  		+ "  \"code\": \""+code+"\",\r\n"
+		  		+ "  \"redirect_uri\": \"http://localhost/callback\"\r\n"
+		  		+ "}\r\n"
+		  		+ "";
+		  
+	  }
+	  
+	 
+
+
 }
