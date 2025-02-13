@@ -1,8 +1,19 @@
 package pojo;
 
-public class Book {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-	String name, isbn, aisle, author;
+@JsonIgnoreProperties(ignoreUnknown=true)
+public class Book {
+	
+
+	@JsonProperty("book_name")
+	private String name;
+	private String isbn, aisle, author;
+	
+	public Book() {
+		
+	}
 
 	public Book(String name, String isbn, String aisle, String author) {
 		this.name = name;
@@ -41,10 +52,5 @@ public class Book {
 
 	public void setAuthor(String author) {
 		this.author = author;
-	}
-	
-	
-	
-	
-	
+	}	
 }
