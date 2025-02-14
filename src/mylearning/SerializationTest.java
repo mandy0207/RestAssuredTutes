@@ -25,13 +25,8 @@ public class SerializationTest {
 		Book book = new Book("Automation Learning", UniqueGenerators.getUniqueString(), Integer.toString(UniqueGenerators.getRandomNumber()), "Vinod");
 		RestAssured.baseURI="http://216.10.245.166";
 		
-		
 		String response = given().log().all().header("Content-Type", "application/json").body(book)
 		.when().post("/Library/Addbook.php").then().log().all().assertThat().statusCode(200).body("Msg", equalTo("successfully added")).extract().response().asString();
-		
-		
-		
-		
 		
 		
 	}

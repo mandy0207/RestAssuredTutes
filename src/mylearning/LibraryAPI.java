@@ -22,6 +22,7 @@ public class LibraryAPI {
 		
 		RestAssured.baseURI="http://216.10.245.166";
 		//Creating a Book
+	
 		String response = given().log().all().header("Content-Type", "application/json").body(PayLoad.getAddBookPayLoad(UniqueGenerators.getUniqueString(), Integer.toString(UniqueGenerators.getRandomNumber())))
 		.when().post("/Library/Addbook.php").then().log().all().assertThat().statusCode(200).body("Msg", equalTo("successfully added")).extract().response().asString();
 		

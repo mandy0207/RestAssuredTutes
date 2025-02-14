@@ -6,7 +6,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Book {
 	
-
 	@JsonProperty("book_name")
 	private String name;
 	private String isbn, aisle, author;
@@ -14,7 +13,7 @@ public class Book {
 	public Book() {
 		
 	}
-
+	
 	public Book(String name, String isbn, String aisle, String author) {
 		this.name = name;
 		this.isbn = isbn;
